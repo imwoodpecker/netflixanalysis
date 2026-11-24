@@ -1,0 +1,25 @@
+# Netflix SQL Analysis - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+squarify>=0.4.3
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# Database (optional - for direct Python DB access)
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0

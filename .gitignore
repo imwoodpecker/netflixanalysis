@@ -1,0 +1,63 @@
+# Netflix SQL Analysis - Git Ignore
+
+# Data files (large, not committed)
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/schema.md
+
+# Output files (generated)
+output/*
+!output/.gitkeep
+output/formatted/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.dump
+*.sql.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+ehthumbs.db
+Desktop.ini
